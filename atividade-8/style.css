@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+}
+
+:root {
+    --cor1: red;
+    --cor2: #8a00da;
+    --cor3: white;
+    --cor4: #f02e2e;
+    --cor5: rgb(6, 216, 6);
+
+    --font: 'Roboto', sans-serif;
+
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--cor1);
+    color: var(--cor3);
+}
+
+header div h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#formTarefas {
+    width: 30vw;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+#mensagem {
+    position: absolute;
+    left: 66%;
+    top: 8%;
+
+    background-color: var(--cor5);
+    color: white;
+    border-radius: 5px;
+}
+
+#formTarefas h2 {
+    text-align: center;
+}
+
+#formTarefas label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#formTarefas input {
+    width: 100%;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.quantidade {
+    display: flex;
+    justify-content: center;
+}
+
+.quantidadeDelete {
+    width: 60vw;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+#excluir {
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: var(--cor4);
+    color: white;
+    border: none;
+}
+
+.quantidade h2,
+p {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.tabela {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--cor3);
+}
+
+table {
+    width: 60vw;
+    max-width: 800px;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid var(--cor3);
+}
+
+th {
+    background-color: var(--cor1);
+    color: #fff;
+    padding: 0px 4px;
+    border: 1px solid black;
+}
+
+td {
+    height: 2rem;
+    padding: 0px 4px;
+}
+
+tr:nth-child(even) {
+    background: var(--cor3)
+}
+
+.editar {
+    padding: 4px 15px;
+    background-color: var(--cor1);
+    color: #fff;
+
+    border: none;
+    border-radius: 5px;
+}

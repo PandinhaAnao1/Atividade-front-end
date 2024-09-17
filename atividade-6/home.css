@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    font-family: "Roboto", sans-serif;
+}
+
+:root{
+    --cor-header-footer: #000;
+    --cor-fundo: #FFF;
+    --cor-button: #C0392B;
+    --cor-clara-text: #CECECE;
+
+}
+
+header{
+    background-color: var(--cor-header-footer);
+}
+
+nav{
+    width: 1440px;
+    margin: auto;
+
+    padding: 0 6rem ;
+}
+
+ul{
+    display: inline-flex;
+    
+}
+
+li{
+    padding: 1rem;
+    align-self: center;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    list-style: none;
+
+    color: var(--cor-clara-text);
+}
+
+.hero{
+    width: 100%;
+    height: 400px;
+
+    background-image: url(img/image\ 51img-nav.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    
+}
+
+.headerText{
+    max-width: 1440px;
+    text-align: left;
+    display: block;
+}
+
+.pesquisa{
+    margin-top: 1rem;
+    font-size: 2.2rem;
+}
+
+.ponteiro{
+    width: 93rem;
+    height: 4rem;
+
+    padding: 1rem;
+
+    border: none;
+}
+
+.botao{
+    width: 15rem;
+    height: 4rem;
+
+    border: none;
+
+    background-color: var(--cor-button);
+    color: white;
+}
+
+.hero h1{
+    font-size: 3.6rem;
+}
+
+.hero p{
+    font-size: 2.2rem;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    max-width: 1440px;
+    margin: auto;
+
+    padding: 6rem;
+}
+
+.poster{
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.poster p{
+    padding: 2rem;
+}
+
+.img{
+    width: 21rem;
+    height: 30rem;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+footer{
+    width: 100vw;
+    height: 22rem;
+    background-color: var(--cor-header-footer);
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+footer > div{
+    display: block;
+}
+
+footer p{
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+footer input, label{
+    font-size: 1.8rem;
+    border: none;
+}
+
+footer input{
+    border-radius: 0.5rem;
+    background-color: var(--cor-fundo);
+}
+
+.pesquisafooter{
+    width: 27rem;
+    height: 3.3rem;
+
+    padding: 1rem;
+}
+
+.buttonfooter{
+    width: 5rem;
+    height: 3.3rem;
+
+    background-color: var(--cor-button);
+    color: var(--cor-clara-text);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.i18 {
+    background-image: url(./img/image\ 18.png);
+}
+
+.i19 {
+    background-image: url(./img/image\ 19.png);
+}
+
+.i20 {
+    background-image: url(./img/image\ 20.png);
+}
+
+.i21 {
+    background-image: url(./img/image\ 21.png);
+}
+
+.i22 {
+    background-image: url(./img/image\ 22.png);
+}
+
+.i23 {
+    background-image: url(./img/image\ 23.png);
+}
+
+.i24 {
+    background-image: url(./img/image\ 24.png);
+}
+
+.i25 {
+    background-image: url(./img/image\ 25.png);
+}
+
+.i26 {
+    background-image: url(./img/image\ 26.png);
+}
+
+.i27 {
+    background-image: url(./img/image\ 27.png);
+}
+
+.i28 {
+    background-image: url(./img/image\ 28.png);
+}
+
+.i29 {
+    background-image: url(./img/image\ 29.png);
+}
+
+.i30 {
+    background-image: url(./img/image\ 30.png);
+}
+
+.i31 {
+    background-image: url(./img/image\ 31.png);
+}
+
+.i32 {
+    background-image: url(./img/image\ 32.png);
+}
+
+

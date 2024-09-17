@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+:root {
+    --cor-linkhover: #E74C3C;
+    --cor-listitemhover: #FFFFFFFF;
+    --cor-listitem: #000000;
+    --cor-titlebackground: #FFD200B2;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+nav {
+    width: 100%;
+    height: fit-content;
+    background: rgba(229, 229, 229, 0.7);
+}
+
+nav>ul {
+    padding: 8px;
+    list-style: none;
+    text-align: center;
+}
+
+nav>ul>li {
+    display: inline;
+    color: var(--cor-listitem);
+    line-height: 30px;
+    font-size: 1.6rem;
+    padding: 8px 22px;
+}
+
+nav>ul>li:hover {
+    background-color: var(--cor-linkhover);
+    color: var(--cor-listitemhover);
+    border-radius: 5px;
+}
+
+.hero {
+    width: 100vw;
+    height: 60vh;
+    background-image: url("/atividade-2/assets/images/fundo_cabecalho.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.hero-content {
+    display: flex;
+    margin-top: 137px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+h1 {
+    padding: 5.0rem;
+    background-color: var(--cor-titlebackground);
+    text-align: center;
+    font-size: 4.8rem;
+    font-weight: 400;
+}
+
+h2 {
+    display: inline-block;
+    width: fit-content;
+    align-self: center;
+    background-color: var(--cor-titlebackground);
+    text-align: center;
+    font-size: 32px;
+    padding: 5.0rem;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+main {
+    width: 1195px;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+main>p {
+    padding: 4.2rem 0rem;
+    font-size: 1.6rem;
+}
+
+main>h3:first-of-type {
+    padding-top: 51px;
+}
+
+main>section {
+    margin-top: 51px;
+}
+
+.main-content {
+    margin-top: 14px;
+}
+
+main>h3:last-of-type {
+    margin-top: 106px;
+    margin-bottom: 21px;
+}
+
+.card {
+    margin-top: 40px;
+    padding-left: 7px;
+    display: flex;
+    gap: 31px;
+    align-items: center;
+}
+
+section>p {
+    font-size: 1.6rem;
+}
+
+section>div>p {
+    font-size: 1.6rem;
+    display: inline;
+}
+
+.bio {
+    display: block;
+    font-size: 1.6rem;
+    line-height: 28px;
+}
+
+.bio>p:last-of-type {
+    font-weight: 700;
+}
+
+.padding-73 {
+    padding-top: 73px;
+}
+
+.localization-image {
+    height: 559px;
+    background-image: url(/assets/images/mapa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    height: 200px;
+    background-color: rgba(45, 55, 72, 0.8);
+}
+
+.footer-content {
+    max-width: 1195px;
+    margin: auto;
+    padding-top: 17px;
+    color: var(--cor-listitemhover);
+}
+
+.logos {
+    margin-top: 43px;
+}
+
+.logos>img {
+    padding-right: 59px;
+}
+
+.localization-image {
+    display: flex;
+    justify-content: center;
+}
+
+.localization-image iframe {
+    width: 70vw;
+}

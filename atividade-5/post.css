@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: var(--font-padrao);
+}
+
+:root{
+    --cor-header: #F1F1F1;
+    --cor-main: white;
+    --cor-footer: #253237;
+    --font-padrao: "Montserrat", sans-serif
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--cor-header);
+
+    padding: 2rem;
+}
+
+li{
+    display: inline;
+    padding: 1.4rem;
+    font-size: 2rem;
+}
+
+main{
+   max-width: 1440px; 
+   margin: auto;
+   padding: 10rem;
+}
+
+h1{
+    text-align: left;
+    font-size: 4rem;
+    color: #333;
+
+}
+
+p{
+    text-align: justify;
+    font-size: 2.4rem;
+    color: #333333a8;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-indent: 40px;
+
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foto{
+    width: 380px;
+    height: 250px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frente{
+    background-image: url(imagensPost/Rectangle\ 33frente.png);
+}
+
+.lado{
+    background-image: url(imagensPost/Rectangle\ 30lado.png);
+}
+
+.longe{
+    background-image: url(imagensPost/Rectangle\ 32longe.png);
+}
+
+.projeto , .ruinas{
+    width: 100%;
+    height: 600px;
+
+    margin-bottom: 30px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projeto{
+    background-image: url(imagensPost/Rectangle\ 54projeto.png);
+}
+
+.ruinas{
+    background-image: url(imagensPost/Rectangle\ 55ruinas.png);
+}
+

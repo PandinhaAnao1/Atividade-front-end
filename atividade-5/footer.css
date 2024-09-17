@@ -1,0 +1,33 @@
+:root{
+    --cor-header: #F1F1F1;
+    --cor-main: white;
+    --cor-footer: #253237;
+    --font-padrao: "Montserrat", sans-serif
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: var(--cor-footer);
+
+    height: 500px;
+    
+}
+
+
+
+.contatos{
+    display: flex;
+}
+
+.contatos img{
+    height: 20px;
+    width: 20px;
+}
+
+footer p{
+    margin-bottom: 30px;
+    color: var(--cor-main);
+}

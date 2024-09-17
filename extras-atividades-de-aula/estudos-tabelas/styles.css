@@ -1,0 +1,24 @@
+.table{
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table th{
+    background-color: black;
+    color: white;
+
+}
+
+.table th, td{
+    border: 1px solid black;
+}
+
+.table tr:nth-child(odd){
+    background-color: lightgrey;
+}
+
+.table tr:hover{
+    background-color: rgb(252, 197, 197);
+}

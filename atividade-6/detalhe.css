@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    font-family: "Roboto", sans-serif;
+}
+
+:root{
+    --cor-header-footer: #000;
+    --cor-fundo: #FFF;
+    --cor-button: #C0392B;
+    --cor-clara-text: #CECECE;
+    --cor-verde: #21D07A;
+    --cor-cinza: #C4C4C4;
+
+
+}
+
+header{
+    background-color: var(--cor-header-footer);
+
+}
+
+nav{
+    max-width: 1440px;
+    margin: auto;
+
+    padding: 0 6rem ;
+}
+
+ul{
+    display: inline-flex;
+    
+}
+
+li{
+    padding: 1rem;
+    align-self: center;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    list-style: none;
+
+    color: var(--cor-clara-text);
+}
+
+.conteudo{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.fundoImagem{
+    max-width: 100vw;
+
+
+    background-image: url(./img/image\ 51.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.hero{
+    width: 100%;
+    height: 75rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+
+}
+
+.heroImg{
+    width: 436px;
+    height: 665px;
+
+    background-image: url(./img/image\ 35la\ casa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heroText{
+    max-width: 800px;
+    display: block;
+}
+
+.heroText > p{
+    font-size: 1.6rem;
+    margin-bottom: 4rem;
+    
+}
+
+.titulo p{
+    font-size: 1.6rem;
+    display: inline;
+}
+
+.titulo h1{
+    font-size: 4.2rem;
+    display: inline;
+}
+
+.estilo{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.estilo > p{
+    display: inline;
+    font-size: 1.2rem;
+
+    padding: 0.8rem;
+}
+
+.avaliacao{
+    margin-bottom: 4rem;
+}
+
+.avaliacao > p{
+    font-size: 4.4rem;
+    display: inline;
+}
+
+.avaliacao > div  p{
+    font-size: 1.6rem;
+    display: inline;
+}
+
+.barraVerde{
+    width: 24.5rem;
+    height: 1rem;
+
+    display: inline-block;
+
+    background-color: var(--cor-verde);
+}
+
+.barraCinza{
+    width: 2rem;
+    height: 1rem;
+    
+    display: inline-block;
+
+    background-color: var(--cor-cinza);
+}
+
+.palavras{
+    display: flex;
+    align-items: center;
+}
+
+.palavras > div p{
+    font-size: 1.6rem;
+    margin-right: 3rem;
+}
+
+.chaves{
+    display: flex;
+    align-items: center;
+   
+
+    width: 50rem;
+    flex-wrap: wrap;
+
+}
+
+.chaves p {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    background-color: var(--cor-cinza);
+
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+.tituloImg{
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 3rem;
+}
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    max-width: 1440px;
+    margin: auto;
+}
+
+.apre{
+    width: 364px;
+    height: 205px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 3rem;
+}
+
+.atores{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    padding-bottom: 10rem;
+
+    max-width: 1440px;
+    margin: auto;
+}
+
+.poster{
+    display: block;
+}
+
+.poster p, strong{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.img{
+    width: 138px;
+    height: 175px;
+
+    border-radius: 5px;
+
+    margin-bottom: 1rem;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.i381 {
+    background-image: url(./img/image\ 381.png);
+}
+
+.i391 {
+    background-image: url(./img/image\ 391.png);
+}
+
+.i401 {
+    background-image: url(./img/image\ 401.png);
+}
+
+.i411 {
+    background-image: url(./img/image\ 411.png);
+}
+
+.i421 {
+    background-image: url(./img/image\ 421.png);
+}
+
+.i431 {
+    background-image: url(./img/image\ 431.png);
+}
+
+.i44 {
+    background-image: url(./img/image\ 44.png);
+}
+
+.i45 {
+    background-image: url(./img/image\ 45.png);
+}
+
+.i46 {
+    background-image: url(./img/image\ 46.png);
+}
+
+.i47 {
+    background-image: url(./img/image\ 47.png);
+}
+
+.i48 {
+    background-image: url(./img/image\ 48.png);
+}
+
+.i49 {
+    background-image: url(./img/image\ 49.png);
+}
+
+.i50 {
+    background-image: url(./img/image\ 50.png);
+}

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: var(--font-padrao);
+}
+
+:root{
+    --cor-header: #F1F1F1;
+    --cor-main: white;
+    --cor-footer: #253237;
+    --font-padrao: "Montserrat", sans-serif
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--cor-header);
+
+    padding: 2rem;
+}
+
+li{
+    display: inline;
+    padding: 1.4rem;
+    font-size: 2rem;
+}
+
+
+main{
+   max-width: 1440px; 
+   margin: auto;
+   padding: 10rem;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: left;
+}
+
+.barrapesquisa{
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+
+.barrapesquisa input{
+    height: 50px;
+    border: solid 1px var(--cor-footer);
+
+
+}
+
+.intext{
+    width: 1000px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.inbutton{
+    width: 200px;
+    background-color: var(--cor-footer);
+    font-size: 2rem;
+    color: white;
+
+    border-radius: 0px 5px 5px 0px;
+}
+
+p{
+    font-size: 1.4rem;
+    color: #333333b2;
+}
+
+h2{
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.post{
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.img{
+    width: 285px;
+    height: 180px;
+
+    background-image: url(imgens/image\ 3pessoas-velhas.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.br{
+    width: 100vw;
+    height: 1px;
+    background-color: var(--cor-footer);
+}
+
+.text{
+    height: 180px;
+    width: 70%;
+}
+
+.text p, h2{
+    margin-bottom: 20px;
+}

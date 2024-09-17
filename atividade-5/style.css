@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: var(--font-padrao);
+}
+
+:root{
+    --cor-header: #F1F1F1;
+    --cor-main: white;
+    --cor-footer: #253237;
+    --font-padrao: "Montserrat", sans-serif
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--cor-header);
+
+    padding: 2rem;
+}
+
+li{
+    display: inline;
+    padding: 1.4rem;
+    font-size: 2rem;
+}
+
+.newsfogos{
+    height: 31rem;
+    width: 100%;
+    padding: 0px;
+
+    margin: auto;
+
+    background-image: url(imgens/newsfogos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+main{
+   max-width: 1440px; 
+   margin: auto;
+   padding: 10rem;
+}
+main h1{
+    font-size: 3.6rem;
+    text-align: center;
+    margin: 50px;
+    color: #333;
+}
+
+main h2{
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #333;
+}
+
+main p{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #414141;
+}
+.subtitulo{
+    margin-bottom: 60px;
+    font-size: 1.8rem;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    width: 387px;
+    text-align: left;
+}
+
+.img{
+    width: 387px;
+    height: 243px;
+    margin-bottom: 20px;
+}
+
+.card h2{
+    font-size: 2.8rem;
+}
+
+.topicos{
+    display: flex;
+    flex-wrap: wrap;
+    columns: 3;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topicos{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    columns: 3;
+}
+
+.topicos div{
+    height: 170px;
+    width: 381px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+    margin-bottom: 10px;
+    padding: 10px;
+
+
+
+   
+}
+
+.topicos h2{
+    color: var(--cor-header);
+}
+.arquitetura{
+    background-image: url(imgens/culinariaculinaria.png );
+}
+
+.artescenicas{
+    background-image: url(imgens/artesCenicasartesCenicas.png );
+
+}
+
+.artesanato{ 
+    background-image: url(imgens/Group\ 39grupo.png );
+
+}
+
+.artesvisuais{
+    background-image: url(imgens/exposicoesquadro.png  );
+
+}
+
+.culturaafro{
+    background-image: url(imgens/culturasculturas.png );
+
+}
+
+.livro{
+    background-image: url(imgens/literaturalivros.png );
+
+}
+
+.musica{
+    background-image: url(imgens/musicamusica.png );
+
+}
+
+.linhas{
+    background-image: url(imgens/image\ 4linha.png);
+}
+
+.pessoas{
+    background-image: url(imgens/Artesantopessoas.png);
+}
+
+.pessoas-velhas{
+    background-image: url(imgens/image\ 3pessoas-velhas.png);
+}
