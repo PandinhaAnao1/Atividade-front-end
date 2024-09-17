@@ -69,7 +69,7 @@ Desenvolver uma aplicação web para gerenciar tarefas, permitindo ao usuário a
 - [Figma!](https://docs.google.com/document/d/1uziQ3epapdGh1XxNK04jXwCirOWxBQ6FkgbdT5iU2TU/edit?usp=sharing)
 - [Pasta!](/atividade-8//)
 
-## 08 - Landing page dribbble: 
+## 09 - Landing page dribbble: 
 
 landing page projetada com inspiração no Dribbble! Aqui, você encontrará uma combinação harmoniosa de design minimalista e interatividade, criada com HTML e CSS para oferecer uma experiência visualmente atraente e envolvente.
 
